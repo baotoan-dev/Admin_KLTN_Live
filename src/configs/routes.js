@@ -1,0 +1,48 @@
+const routes = {
+  // COMMON
+  auth: "/admin/auth",
+
+  // ADMIN
+  home: "/admin",
+  postsList: "/admin/posts",
+  postHistoryList: "/admin/post-history",
+  postDetail: "/admin/posts/:id",
+  createPost: "/admin/posts/create",
+  accountList: "/admin/accounts",
+  accountDetail: "/admin/accounts/:id",
+  banner: "/admin/banners",
+  themeCategory: "/admin/themes",
+  chat: "/admin/chats",
+  workerManager: "/admin/worker-manager",
+  workerDetail: "/admin/worker-manager/detail",
+  notPermission: "/admin/not-permission",
+  category: "/admin/category-manager",
+  categoryDetail: "/admin/category-manager/:id",
+  seeAllChildCategory: "/admin/see-all-child-category/:id",
+  childCategoryDetail: "/admin/child-category/:id",
+  createChildCategory: "/admin/:id/create-child-category",
+  createParentCategory: "/admin/create-parent-category",
+  adminSuggestManager: "/admin/search-suggest",
+  suggestDetail:"/admin/search-suggest/:id",
+  createSearchSuggest: "/admin/create-search-suggest",
+  language: "/admin/language-manager",
+  createCommunity: "/admin/community-create",
+  communityManager: "/admin/community-manager",
+  communityDetail: "/admin/community-detail/:id",
+  sendMail: "/admin/send-mail",
+  serviceManager: "/admin/service-manager",
+  serviceHistory: "/admin/service-history",
+  createService: "/admin/service-manager/create",
+  detailService: "/admin/service-manager/:id",
+  companyManager: "/admin/company-manager",
+  companyDetail: "/admin/company-manager/:id",
+  // analytics
+  analytics: "/admin/analytics",
+  hotManager: "/admin/hot-manager",
+  hotDetail: "/admin/hot-manager/:id",
+  userPointHistory: "/admin/histories",
+  historiesDelete: "admin/community-history",
+  hotHistory: "admin/hot-history",
+};
+
+export default routes;

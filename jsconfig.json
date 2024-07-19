@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src/**/*.js", "src/**/*.jsx", "src/redux/slice/profileSlice.tsx"],
+  "exclude": ["node_modules", "**/node_modules", "dist"]
+}
