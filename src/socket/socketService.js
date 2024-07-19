@@ -1,6 +1,6 @@
 import io from 'socket.io-client';
 
-const SOCKET_URL = 'https://backend-hcmute-nodejs.onrender.com';
+const SOCKET_URL = 'https://welcome-unlimited-summaries-formerly.trycloudflare.com';
 
 const socket = io(SOCKET_URL, {
   extraHeaders: {
